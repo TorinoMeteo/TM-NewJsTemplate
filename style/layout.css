@@ -1,0 +1,56 @@
+#container {
+    /* background-color: #b9b9b9; */
+    height: 550px;
+    width: 1024px;
+    position: relative;
+	margin-left: auto;
+    margin-right: auto;
+}
+/*media for gauge conteiner*/
+#wind_dir_gauge {
+  height: 250px;
+  max-width:250px;
+}
+#barometer_gauge {
+  height: 250px;
+  max-width:250px;
+}
+#wind_speed_gauge {
+    height: 250px;
+    max-width:250px;
+}
+#humidity_gauge {
+    height: 250px;
+    max-width:250px;
+}
+
+.LCDContainerBig{
+    height: 80px;
+    max-width:250px;
+  }
+.LCDContainerLil{
+    height: 45px;
+    max-width:100px;
+
+  }
+
+.icoabs{
+  position: absolute;
+  font-size:100px;
+  z-index:100;
+  color:#B9B9B9;
+}
+.icobkgabs{
+  position: absolute;
+  font-size:100px;
+  z-index:50;
+}
+#Moon{
+  height:100px;
+  position:relative;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
